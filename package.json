@@ -8,7 +8,9 @@
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "lint:eslint": "eslint ./src --ext .ts,.vue --max-warnings 0",
-    "lint:prettier": "prettier --write ./**/*.{ts,vue,html,css,json}"
+    "lint:prettier": "prettier --write ./**/*.{ts,vue,html,css,json}",
+    "prepare": "husky install",
+    "lint-staged": "lint-staged"
   },
   "dependencies": {
     "vue": "^3.3.4"
@@ -20,6 +22,8 @@
     "@vitejs/plugin-vue": "^4.2.3",
     "eslint": "^8.48.0",
     "eslint-plugin-vue": "^9.17.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
     "prettier": "^3.0.3",
     "typescript": "^5.0.2",
     "vite": "^4.4.5",
