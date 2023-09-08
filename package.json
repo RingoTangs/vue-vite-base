@@ -35,10 +35,12 @@
     "vite": "^4.4.5",
     "vue-tsc": "^1.8.5"
   },
-  "commitizen": {
-    "path": "./node_modules/cz-customizable"
-  },
-  "cz-customizable": {
-    "config": "cz-config.cjs"
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "cz-config.cjs"
+    }
   }
 }
