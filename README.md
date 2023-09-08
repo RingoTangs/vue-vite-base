@@ -7,17 +7,14 @@
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    
     "lint:eslint": "eslint ./src --ext .ts,.vue --max-warnings 0",
-    "lint:prettier": "prettier --write ./**/*.{ts,vue,html,css,json}",
+    "lint:prettier": "prettier --write ./**/*.{js,cjs,ts,vue,html,css,json}",
     "lint": "npm run lint:prettier && npm run lint:eslint",
-    
     "prepare": "husky install",
     "lint-staged": "lint-staged",
     "commitlint": "commitlint --config commitlint.config.cjs -e -V",
-    
     "commit": "cz"
-},
+}
 ```
 
 脚本说明：
