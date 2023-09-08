@@ -1,8 +1,8 @@
 {
-    "recommendations": [
-        "Vue.volar",
-        "Vue.vscode-typescript-vue-plugin",
-        "Prettier.Prettier",
-        "Microsoft.ESlint"
-    ]
+  "recommendations": [
+    "Vue.volar",
+    "Vue.vscode-typescript-vue-plugin",
+    "Prettier.Prettier",
+    "Microsoft.ESlint"
+  ]
 }
