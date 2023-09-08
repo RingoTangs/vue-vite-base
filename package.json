@@ -25,7 +25,6 @@
     "@typescript-eslint/parser": "^6.5.0",
     "@vitejs/plugin-vue": "^4.2.3",
     "commitizen": "^4.3.0",
-    "cz-conventional-changelog": "^3.3.0",
     "cz-customizable": "^7.0.0",
     "eslint": "^8.48.0",
     "eslint-plugin-vue": "^9.17.0",
@@ -36,9 +35,10 @@
     "vite": "^4.4.5",
     "vue-tsc": "^1.8.5"
   },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
+  "commitizen": {
+    "path": "./node_modules/cz-customizable"
+  },
+  "cz-customizable": {
+    "config": "cz-config.cjs"
   }
 }
