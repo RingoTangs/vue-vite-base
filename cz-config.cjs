@@ -26,7 +26,7 @@ module.exports = {
         footer: '请输入要关闭的issue(待优化去除，跳过即可):',
         confirmCommit: '确认使用以上信息提交？(y/n/e/h)',
     },
-    allowCustomScopes: false,
+    allowCustomScopes: true,
     // allowBreakingChanges: ['feat', 'fix'],
     skipQuestions: ['body', 'footer'],
     // limit subject length, commitlint默认是72
