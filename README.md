@@ -1,5 +1,17 @@
 # Vue Vite Base
 
+# Usage
+
+```
+degit https://github.com/RingoTangs/vue-vite-base.git my-app
+
+yarn 
+
+yarn dev
+```
+
+如果没有安装 `degit`，查看：https://github.com/Rich-Harris/degit。
+
 ## package.json
 
 ```json
