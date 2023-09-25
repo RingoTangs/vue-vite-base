@@ -1,5 +1,46 @@
 # Vue Vite Base
 
+## 分支说明
+
+### master分支
+
+| 库名称      | 是否支持           |
+| ----------- | ------------------ |
+| eslint      | :heavy_check_mark: |
+| prettier    | :heavy_check_mark: |
+| lint-staged | :heavy_check_mark: |
+| commitizen  | :heavy_check_mark: |
+| husy        | :heavy_check_mark: |
+| mock server | :heavy_check_mark: |
+
+
+
+### mock 分支
+
+| 库名称      | 是否支持           |
+| ----------- | ------------------ |
+| eslint      | :heavy_check_mark: |
+| prettier    | :heavy_check_mark: |
+| lint-staged | :heavy_check_mark: |
+| commitizen  | :heavy_check_mark: |
+| husy        | :heavy_check_mark: |
+| mock server | :heavy_check_mark: |
+
+
+
+### base 分支
+
+| 库名称      | 是否支持                 |
+| ----------- | ------------------------ |
+| eslint      | :heavy_check_mark:       |
+| prettier    | :heavy_check_mark:       |
+| lint-staged | :heavy_check_mark:       |
+| commitizen  | :heavy_check_mark:       |
+| husy        | :heavy_check_mark:       |
+| mock server | :heavy_multiplication_x: |
+
+
+
 # Usage
 
 ```
